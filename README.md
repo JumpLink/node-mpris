@@ -1,9 +1,11 @@
 node-mpris
 ==========
 
-Node.js implementation for [MPRIS](http://specifications.freedesktop.org/mpris-spec/latest/) a Media Player Remote Interfacing Specification. It’s a spec that describes a standard D-Bus interface for making MPRIS-capable media players available to other applications.
+Control you media player with node.js!
 
-Supported players include:
+This is a node.js implementation of [MPRIS](http://specifications.freedesktop.org/mpris-spec/latest/) (Media Player Remote Interfacing Specification) a spec that describes a standard D-Bus interface for making media players available in other applications or for other programming languages.
+
+##Supported media players:
 
 * [VLC Media Player](https://www.videolan.org/vlc/) (must launch with vlc --control dbus)
 * [OMXPlayer](https://github.com/popcornmix/omxplayer/)
