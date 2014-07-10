@@ -27,7 +27,8 @@
     "mopidy",
     "amarok",
     "banshee",
-    "mplayer"
+    "mplayer",
+    "deadbeef"
   ],
   "main": "mpris.js",
   "scripts": {

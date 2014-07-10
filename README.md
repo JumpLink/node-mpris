@@ -15,11 +15,12 @@ This is a node.js implementation of [MPRIS](http://specifications.freedesktop.or
 * [BMP](http://sourceforge.net/projects/beepmp/)
 * [QMMP](http://qmmp.ylsoftware.com/)
 * [XMMS2](https://xmms2.org/)
-* [MPD](http://www.musicpd.org/) via [mpDris2](https://github.com/eonpatapon/mpDris2)
+* [MPD](http://www.musicpd.org/) (via [mpDris2](https://github.com/eonpatapon/mpDris2))
 * [Corn](https://github.com/mackstann/corn)
 * [Totem](https://wiki.gnome.org/Apps/Videos) (via plugin)
 * [Mopidy](http://www.mopidy.com/) (via [extension](https://github.com/mopidy/mopidy-mpris))
 * [Amarok](https://amarok.kde.org/)
 * [Banshee](http://banshee.fm/)
 * [GNOME MPlayer](https://sites.google.com/site/kdekorte2/gnomemplayer)
+* [DeaDBeeF](http://deadbeef.sourceforge.net/) (via [plugin](https://kernelhcy.github.io/DeaDBeeF-MPRIS-plugin/))
 * And many more, you're welcome to help to complete this list
