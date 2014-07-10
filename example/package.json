@@ -1,0 +1,14 @@
+{
+  "name": "example",
+  "version": "0.0.0",
+  "description": "",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pascal Garber <pascal@jumplink.eu> (http://jumplink.eu/)",
+  "license": "MIT",
+  "dependencies": {
+    "optimist": "^0.6.1"
+  }
+}

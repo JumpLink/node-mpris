@@ -1,0 +1,58 @@
+{
+  "name": "mpris",
+  "version": "0.0.1",
+  "description": "Node.js implementation for the MPRIS D-Bus Interface Specification to control your mediaplayer",
+  "keywords": [
+    "mpris",
+    "dbus",
+    "mediaplayer",
+    "mediacenter",
+    "video",
+    "music",
+    "movie",
+    "mp3",
+    "avi",
+    "control",
+    "raspberry"
+    "vlc",
+    "omxplayer",
+    "audacious",
+    "bmp",
+    "xmms2",
+    "rhythmbox",
+    "totem",
+    "spotify",
+    "qmmp",
+    "corn",
+    "mopidy",
+    "amarok",
+    "banshee",
+    "mplayer"
+  ],
+  "main": "mpris.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com:JumpLink/node-mpris.git"
+  },
+  "homepage": "https://github.com/JumpLink/node-mpris",
+  "author": {
+    "name": "Pascal Garber",
+    "email": "pascal@jumplink.eu"
+  },
+  "bugs" : {
+      "url" : "https://github.com/JumpLink/node-mpris/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license"
+    }
+  ],
+  "dependencies": {
+    "dbus": "^0.2.9",
+    "debug": "^1.0.3"
+  }
+}
