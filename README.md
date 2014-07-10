@@ -1,7 +1,7 @@
 node-mpris
 ==========
 
-Node.js implementation for [MPRIS](http://specifications.freedesktop.org/mpris-spec/latest/ a Media Player Remote Interfacing Specification. It’s a spec that describes a standard D-Bus interface for making MPRIS-capable media players available to other applications.
+Node.js implementation for [MPRIS](http://specifications.freedesktop.org/mpris-spec/latest/) a Media Player Remote Interfacing Specification. It’s a spec that describes a standard D-Bus interface for making MPRIS-capable media players available to other applications.
 
 Supported players include:
 
