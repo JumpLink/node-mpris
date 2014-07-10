@@ -23,4 +23,5 @@ This is a node.js implementation of [MPRIS](http://specifications.freedesktop.or
 * [Banshee](http://banshee.fm/)
 * [GNOME MPlayer](https://sites.google.com/site/kdekorte2/gnomemplayer)
 * [DeaDBeeF](http://deadbeef.sourceforge.net/) (via [plugin](https://kernelhcy.github.io/DeaDBeeF-MPRIS-plugin/))
+* [moc-mpris](https://github.com/zlbruce/moc-mpris)
 * And many more, you're welcome to help to complete this list
