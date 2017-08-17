@@ -256,7 +256,9 @@ mc.connect = function (playerName, callback) {
           loadInterface(mc.dbusName, 'org.mpris.MediaPlayer2.TrackList', function (errorTrackList) {
             loadInterface(mc.dbusName, 'org.mpris.MediaPlayer2.Playlists', function (errorPlaylists) {
               watchProperties(mc, mc.dbusName, function (errorWatchProperties) {
-                if(errorBase || errorPlayer || errorTrackList || errorPlaylists || errorWatchProperties ) callback(errorBase+" "+errorPlayer+" "+errorTrackList+" "+errorPlaylists+" "+errorWatchProperties, mc);
+                // Raise an error if we can't get at least the base or player
+                // Other interfaces such as TrackList + Playlists are optional
+                if(errorBase || errorPlayer || errorWatchProperties ) callback(errorBase+" "+errorPlayer+" "+errorTrackList+" "+errorPlaylists+" "+errorWatchProperties, mc);
                 else callback(null, mc);
               });
             });
