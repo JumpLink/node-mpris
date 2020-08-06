@@ -44,8 +44,8 @@
     "name": "Pascal Garber",
     "email": "pascal@jumplink.eu"
   },
-  "bugs" : {
-      "url" : "https://github.com/JumpLink/node-mpris/issues"
+  "bugs": {
+    "url": "https://github.com/JumpLink/node-mpris/issues"
   },
   "licenses": [
     {
@@ -54,7 +54,7 @@
     }
   ],
   "dependencies": {
-    "dbus": "^0.2.9",
-    "debug": "^1.0.3"
+    "dbus": "^1.0.7",
+    "debug": "^4.1.1"
   }
 }

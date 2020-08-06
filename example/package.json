@@ -9,6 +9,6 @@
   "author": "Pascal Garber <pascal@jumplink.eu> (http://jumplink.eu/)",
   "license": "MIT",
   "dependencies": {
-    "optimist": "^0.6.1"
+    "optimist": "habilelabs/node-optimist#master"
   }
 }
